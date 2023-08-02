@@ -1,0 +1,57 @@
+.nav_header{
+  position: absolute;
+}
+
+.nav-ul {
+  padding: 10px;
+  display: flex;
+  margin: 0px;
+  margin-bottom: 20px;
+  background-color: rgb(238, 238, 245);
+}
+.nav-ul p{
+text-align: left;
+font-size: medium;
+font-weight: 500;
+}
+
+.nav-ul li {
+  display: inline-block;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header_items :hover {
+  color: rgb(15, 15, 16);
+  background-color: rgb(98, 123, 232);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.header_items  {
+  margin-top: 5px;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.nav-signup{
+  text-align: right;
+  
+}
+.header_links {
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+.logo {
+  border-radius: 25px;
+  height: 40px;
+  align-items: center;
+}
+
+
+.stg-link {
+  text-decoration: none;
+}
